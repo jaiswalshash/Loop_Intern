@@ -1,0 +1,119 @@
+.maps {
+    position: absolute;
+    width: 100%;
+    height: 57%;
+    overflow-y: scroll;
+    border: #00B7A8;
+}
+
+.sidebar {
+    position: absolute;
+    height: 100%;
+    width: 15%;
+    background: rgb(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+.main-content {
+    position: absolute;
+    height: 100%;
+    left: 15.5%;
+    width: 83%;
+    gap: 2rem;
+}
+
+.bookmark {
+    font-size: large;
+    font-weight: bolder;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0, 0.8);
+}
+
+.custom-scrollbars__content {
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  .custom-scrollbars__content::-webkit-scrollbar {
+    display: none;
+  }
+
+  .maps::-webkit-scrollbar {
+    width: 5px;
+    opacity: 0.7;
+}
+
+.maps::-webkit-scrollbar-track {
+    background: #454545;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+.maps::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #1EFFED;
+    opacity: 0.7;
+}
+.maps:hover {
+  opacity: 1;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.bookmark_btn {
+    width: 22%;
+    height: 2rem;
+    background: linear-gradient(180deg, #00B7A8 0%, #044646 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    opacity: 1;
+    color: white;
+    cursor: pointer;
+}
+
+.remove_btn {
+    width: 22%;
+    height: 2rem;
+    background: linear-gradient(180deg, #db1b14f5 0%, #881915 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    opacity: 1;
+    color: white;
+    cursor: pointer
+}
+
+.res-name {
+    font-weight: bold;
+    font-size: large;
+}
+
+li:hover {
+    opacity: 1;
+}
+
+.input_rest{
+    padding-left: 4%;
+    width: 26%;
+    height: 2rem;
+    border-radius: 15px 15px 0px 0px;
+    background: inherit;
+}
+
+.heading {
+    /* position: absolute; */
+    top: 0;
+    background: rgb(0, 0, 0, 0.2);
+    height: 3rem;
+    width: 98%;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+    padding-right: 5%;
+    align-items: center;
+}
